@@ -9,7 +9,10 @@ A Note Taker with Express.js
 ## The start command will be `npm i start`
  
 
-https://github.com/user-attachments/assets/d225ebe3-0481-47a7-bb16-ecb5593c8ff9
+
+
+https://github.com/user-attachments/assets/7344b0a8-4020-4f18-827e-b1a51ba73b7f
+
 
 
 
