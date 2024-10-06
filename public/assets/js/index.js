@@ -28,6 +28,12 @@ const hide = (elem) => {
 // activeNote is used to keep track of the note in the textarea
 let activeNote = {};
 
+function generateNoteId() {
+  const timestamp = Date.now(); // Current time in milliseconds    
+  const randomNum = Math.floor(Math.random() * 10000); // Random 4-digit number
+  return `${timestamp}_${randomNum}`;
+}
+
 const getNotes = () =>
   fetch('/api/notes', {
     method: 'GET',
@@ -74,6 +80,7 @@ const renderActiveNote = () => {
 
 const handleNoteSave = () => {
   const newNote = {
+    id: generateNoteId(),
     title: noteTitle.value,
     text: noteText.value
   };
@@ -90,7 +97,7 @@ const handleNoteDelete = (e) => {
 
   const note = e.target;
   const noteId = JSON.parse(note.parentElement.getAttribute('data-note')).id;
-
+  console.log(noteId);
   if (activeNote.id === noteId) {
     activeNote = {};
   }
