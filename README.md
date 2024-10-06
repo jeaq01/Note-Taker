@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/d225ebe3-0481-47a7-bb16-ecb5593c8ff9
 
 
 Render link: https://note-taker-w4lx.onrender.com
-Repor link:https: //github.com/jeaq01/Note-Taker.git
+Repo link:https: //github.com/jeaq01/Note-Taker.git
 
 # License
 MIT license
