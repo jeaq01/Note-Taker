@@ -1,6 +1,6 @@
 # Note-Taker
 # Description
-A Note Taker with Express.js
+## A Note Taker with Express.js
 # Usage
 ## The website is meant to be use to create notes that does not get deleted after refreshing the page using Express.js and node.js the user input will be saved in a package Json that will be used as a database. 
 # Aplication
